@@ -1,0 +1,133 @@
+body {
+    padding-top: 800px;
+    margin: 0;
+    text-align: center;
+}
+
+.profile {
+    border-radius: 50%;
+
+}
+
+#welcome {
+    position: absolute;
+    height: 800px;
+    color: cyan;
+    opacity: 0.83;
+    background: linear-gradient(#1e294 0%, #4daa57 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: cursive;
+    text-align: center
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: center;
+}
+
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+
+p {
+    
+    font-size: 17px;
+
+}
+
+.parallax-inner {
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    display: table-cell;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    margin-top: 0px;
+    top: 0px;
+    right: 30px;
+    z-index 10;
+    cursor: pointer;
+    color: blue;
+}
+
+.links {
+    display: inline;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+
+}
+
+.link:hover {
+    background-color: dodgerblue;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+article:hover {
+    color: fuchsia;
+}
+
+#writtings a {
+    text-shadow: none:important;
+    text-decoration: underline:important;
+    color: blue:important;
+}
+
+#contact {
+    background: firebrick;
+}
+
+#contact iframe {
+    width: 100%
+}
+
+.contact_1 h2 {
+    display: inline;
+}
+
+contact_1 a {
+    color: white;
+    text-shadow: none;
+}
